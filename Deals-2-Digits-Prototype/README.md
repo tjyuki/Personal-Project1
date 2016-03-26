@@ -1,1 +1,1 @@
-# Personal-Project1
+# First Personal Project: Deals 2 Digits Prototype Website
