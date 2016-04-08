@@ -9,71 +9,75 @@ html, body {
 
 /*header*/
 
-.home-page-header {
+.home-page-header-nav {
   width:100%;
   height:60px;
   display: flex;
   justify-content: space-between;
   padding-top:20px;
-  background-color: lightgray;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Comfortaa', cursive;
 }
 
-.logo img {
-  width:200px;
+.logo {
+  width:50%;
   height:100px;
   margin-left:20px;
   padding-bottom: 20px;
 }
 
+.logo img {
+  width: 180px;
+  height: 50px;
+}
 
-.buttons-header {
-  display:flex;
+.top-menu {
+  display: flex;
   justify-content: space-between;
-  padding-right:20px;
-  padding-top: 10px;
+  height: 50px;
+  margin-right: 20px;
+  padding-bottom: 20px;
 }
 
-.button-sign-up {
-  margin-bottom:20px;
-  background-color: orange;
-  border-radius: 20px;
-  padding:10px;
+.top-menu input {
+  margin: auto;
+  height: 30px;
+  border: 2px solid #ff5550;
+  border-radius: 10px;
+  font-family: 'Comfortaa', cursive;
+  text-decoration: none;
 }
 
-.link-button {
+.top-menu .placeholder {
+  font-family: 'Comfortaa', cursive;
+}
+
+.header-nav-top {
+padding: 10px;
+
+}
+
+
+.header-nav-top a {
   padding-left:20px;
-  font-size:18px;
-}
-
-.link-button a {
   text-decoration: none;
   color: black;
 }
 
-.home-page-header-nav {
-  height:60px;
-  display: flex;
-  justify-content: flex-end;
-  padding-top: 20px;
-  padding-right: 20px;
-  font-family: 'Josefin Sans', sans-serif;
-  background-color: lightgray;
-}
 
 
 /*section-top*/
 
-.home-page-top-teaser {
-  height:300px;
+.home-page-teaser-main {
+  width: 100%;
+  height:800px;
   display:flex;
   flex-direction:column;
-  background-color: #F85B50;
+  background-color: #ff5550;
 }
 
 .description-teaser {
   font-size:20px;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Comfortaa', cursive;
   text-align: center;
   margin:auto;
 }
@@ -84,16 +88,18 @@ html, body {
 }
 
 .learn-more-button {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Comfortaa', cursive;
   margin:auto;
-  background-color: orange;
+  background-color: #FFA918;
   border-radius: 20px;
   padding:20px 30px 20px 30px;
 }
 
-.link-button2 a {
+.learn-more-button a {
   font-size: 18px;
+  color: black;
   text-decoration: none;
+  margin-top: 50px;
 }
 
 /*section-mid*/
@@ -105,10 +111,14 @@ html, body {
   margin-bottom:20px;
 }
 
+.description-teaser h2 {
+  vertical-align: middle;
+}
+
 
 .home-page-mid-text {
   width:max-content;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Comfortaa', cursive;
   text-align:left;
   padding:15px;
 
@@ -149,7 +159,7 @@ html, body {
   display:flex;
   justify-content:space-between;
   font-size:30px;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Comfortaa', cursive;
   text-align: center;
   background-color: #FFB13D;
   margin-bottom: 20px;
@@ -168,7 +178,7 @@ html, body {
   display:flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Comfortaa', cursive;
   text-align: center;
 }
 
