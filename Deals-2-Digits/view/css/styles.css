@@ -1,0 +1,75 @@
+@import url(https://fonts.googleapis.com/css?family=Comfortaa);
+
+html, body {
+  font-family: "Comfortaa", cursive;
+  margin: 0;
+}
+
+.home-header-nav {
+  width:100%;
+  height: 100px;
+  display:flex;
+  justify-content: space-between;
+}
+
+.logo {
+  width:50%;
+  height:100px;
+}
+
+.logo img {
+  margin-top: 15px;
+  margin-left: 30px;
+  height: 70px;
+}
+
+.nav-menu {
+  margin-top: 50px;
+  display: flex;
+}
+
+.nav-menu a {
+  font-size: 20px;
+  color: #666564;
+  margin-right: 30px;
+  text-decoration: none;
+}
+
+.home-inquire {
+  width: 100%;
+  height: 120px;
+  margin: 0 auto;
+  display:flex;
+  justify-content: space-around;
+  background-color: #ff5550;
+  text-align: center;
+}
+
+/*Home-middle*/
+
+.home-mid {
+  width: 100%;
+  height: 800px;
+  display:flex;
+  justify-content: space-around;
+  background-color: #ff5550;
+}
+
+.home-mid a {
+  font-size: 40px;
+  color: #666564;
+}
+
+
+.home-mid-img img {
+  width: 400px;
+  height: 200px;
+  margin: 15px;
+}
+
+/*Home-footer*/
+
+.home-footer-nav {
+  width: 100%;
+  height: 180px;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html ng-app="d2d">
+  <head>
+    <meta charset="utf-8">
+    <title>Deals 2 Digits</title>
+    <link rel="stylesheet" href="view/css/styles.css">
+
+  </head>
+  <body>
+  <main>
+    <header class="home-header-nav">
+      <div class="logo">
+        <a ui-sref="home"><img src="view/img/Logo.png">
+      </div>
+
+      <div class="nav-menu">
+        <a ui-sref="about">About</a>
+        <a ui-sref="login">Login</a>
+        <a ui-sref="signup">Sign Up</a>
+      </div>
+
+    </header>
+
+    <section class="home-inquire">
+      <h3>Looking to connect with your valued consumers? Click <a ui-sref="business">business</a>.</h3>
+      <h3>Wanna get hooked up with sweet deals from your fav places? Click <a ui-sref="people">person</a>.</h3>
+    </section>
+
+    <section class="home-mid" ui-view>
+
+    </section>
+
+    <footer class="home-footer-nav">
+    </footer>
+
+  </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.18/angular-ui-router.js"></script>
+    <script src="components/app.js"></script>
+    <script src="components/home/homeCtrl.js"></script>
+    <script src="components/business/businessCtrl.js"></script>
+    <script src="components/people/peopleCtrl.js"></script>
+    <script src="components/about/aboutCtrl.js"></script>
+  </body>
+</html>
